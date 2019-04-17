@@ -16,7 +16,7 @@ export function handler(...args) {
   });
 
   event(vars, (req, res) => {
-    const { walletId } = req.body;
+    const { id: walletId } = req.params;
 
     chainKit.getBalance({ walletId }, (err, response) => {
       if (err) res.json(400, err);
