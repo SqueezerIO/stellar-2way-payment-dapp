@@ -1,6 +1,5 @@
 ## Framework : [squeezer.io](https://squeezer.io)
 ## Documentation : [docs.squeezer.io](https://docs.squeezer.io/)
-## Two-way payment dApp : [https://github.com/SqueezerIO/squeezer-2way-payment]
 ## [Getting started](https://docs.squeezer.io/getting-started/)
 
 ## [Full Video tutorial](https://www.youtube.com/watch?v=2V3A_LTFu4E)
