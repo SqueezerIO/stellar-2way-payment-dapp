@@ -1,10 +1,12 @@
 ## Framework : [squeezer.io](https://squeezer.io)
 ## Documentation : [docs.squeezer.io](https://docs.squeezer.io/)
-
+## Two-way payment dApp : [https://github.com/SqueezerIO/squeezer-2way-payment]
 ## [Getting started](https://docs.squeezer.io/getting-started/)
 
+## [Full Video tutorial](https://www.youtube.com/watch?v=2V3A_LTFu4E)
+
 1. Install Squeezer's command line tool globally on your machine using npm:
-npm install squeezer-cli -g
+`npm install squeezer-cli -g`
 2. Create a new project using the squeezer-2way-payment template: 
 `sqz create --project my-first-project --template https://github.com/SqueezerIO/squeezer-2way-payment`
 3. Switch to the project's directory:
