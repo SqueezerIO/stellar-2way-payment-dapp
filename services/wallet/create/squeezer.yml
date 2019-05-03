@@ -47,6 +47,9 @@ swagger:
         type:
           type: string
           example: ETH
+        secret:
+          type: string
+          example: secret123            
     createWalletResV1:
       type: object
       properties:

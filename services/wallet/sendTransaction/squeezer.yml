@@ -57,6 +57,9 @@ swagger:
           type: string
           description: token used to access walet later
           example: 834d9a9mn30sa03j3nafss...      
+        secret:
+          type: string
+          example: secret123          
     sendTransactionResV1:
       type: object
       properties:
