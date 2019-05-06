@@ -5,7 +5,7 @@
     "jsinspect": "jsinspect -t 30 -i ./lib/ ./services/"
   },
   "dependencies": {
-    "squeezer-chainkit": "^1.0.6-beta",
+    "squeezer-chainkit": "^1.0.7-beta",
     "squeezer-chainkit-plugin": "0.0.1",
     "squeezer-event-node": "~0.0.4",
     "squeezer-serve": "~0.0.7",
