@@ -16,9 +16,9 @@ export function handler(...args) {
   });
 
   event(vars, (req, res) => {
-    const { type } = req.body;
+    const { type, secret } = req.body;
 
-    chainKit.createWallet({ type }, (err, response) => {
+    chainKit.createWallet({ type, secret }, (err, response) => {
       if (err) res.json(400, err);
 
       res.json(200, response);
