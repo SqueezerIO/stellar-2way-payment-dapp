@@ -16,9 +16,9 @@ export function handler(...args) {
   });
 
   event(vars, (req, res) => {
-    const { amount, type, to, token, secret } = req.body;
+    const { amount, to, token, secret, walletId } = req.body;
 
-    chainKit.sendTransaction({ amount, type, to, token, secret }, (err, response) => {
+    chainKit.sendTransaction({ amount, to, token, secret, walletId }, (err, response) => {
       if (err) res.json(400, err);
 
       res.json(200, response);

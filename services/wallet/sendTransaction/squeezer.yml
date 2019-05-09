@@ -43,23 +43,23 @@ swagger:
   definitions:
     sendTransactionBodyV1:
       type: object
-      properties:
+      properties:     
+        walletId:
+          type: string
+          example: b1b7c16f-6051-49c0-94b5-xxxxxxxxxxxx
+        token:
+          type: string
+          description: token used to access walet later
+          example: 834d9a9mn30sa03j3nafss...            
         to:
           type: string
           example: "0x207E1a4F3Ab910D2164bC3646CFD0aF697f86713"   
         amount:
           type: interger
-          example: 0.99999999
-        type:
-          type: string
-          example: ETH           
-        token:
-          type: string
-          description: token used to access walet later
-          example: 834d9a9mn30sa03j3nafss...      
+          example: 0.99999999               
         secret:
           type: string
-          example: secret123          
+          example: secret123        
     sendTransactionResV1:
       type: object
       properties:

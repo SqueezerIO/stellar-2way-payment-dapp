@@ -46,10 +46,24 @@ swagger:
       properties:
         type:
           type: string
-          example: ETH
+          example: ethereum        
         secret:
           type: string
-          example: secret123            
+          example: secret123
+        options:
+          $ref: '#/definitions/createWalletBodyOptionsV1'
+    createWalletBodyOptionsV1:
+      type: object
+      properties:
+        asset:
+          type: string
+          example: ETH
+        assetType:
+          type: string
+          example: native
+          enum:
+            - native
+            - erc20        
     createWalletResV1:
       type: object
       properties:
