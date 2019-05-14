@@ -1,6 +1,7 @@
 name: <%= name %>
 
 runtime: nodejs
+runtimeVersion: "8.10"
 
 vars:
   accessKey: <%= accessKey %>
